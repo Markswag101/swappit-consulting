@@ -17,8 +17,8 @@
   --surface:     #1A1A1A;
   --white:       #F5F5F0;
   --muted:       #888;
-  --font-display: 'Syne', sans-serif;
-  --font-body:    'Space Grotesk', sans-serif;
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-body:    'Inter', sans-serif;
   --nav-h:       68px;
 }
 
@@ -50,9 +50,9 @@ body {
 
 .section-headline {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
   font-weight: 800;
-  line-height: 1.1;
+  line-height: 1.15;
   color: var(--white);
 }
 
@@ -120,22 +120,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   background: var(--orange);
   color: var(--white);
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: 18px;
-  border-radius: 8px;
+  font-size: 15px;
+  border-radius: 7px;
 }
 
 .logo-text {
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: 17px;
+  font-size: 15px;
   color: var(--white);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
 }
 
 .nav__links {
@@ -255,9 +255,9 @@ body {
 
 .hero__headline {
   font-family: var(--font-display);
-  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-size: clamp(2rem, 4.5vw, 3.75rem);
   font-weight: 800;
-  line-height: 1.05;
+  line-height: 1.1;
   color: var(--white);
   margin-bottom: 28px;
 }
@@ -315,7 +315,7 @@ body {
 .stat__num {
   display: block;
   font-family: var(--font-display);
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
   font-weight: 800;
   color: var(--black);
   line-height: 1;
@@ -391,7 +391,7 @@ body {
 }
 .service-card h3 {
   font-family: var(--font-display);
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 700;
   margin-bottom: 14px;
   color: var(--white);
@@ -526,7 +526,7 @@ body {
 }
 .project-card__info h3 {
   font-family: var(--font-display);
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 14px;
 }
